@@ -1,0 +1,16 @@
+
+services:
+
+  bot:
+    build:
+      context: .
+
+    ports:
+      - 4000:80
+      
+    volumes:
+      - .:/app
+    command: npm run start
+
+volumes:
+  data:
