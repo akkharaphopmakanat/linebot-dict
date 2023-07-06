@@ -87,7 +87,7 @@ async function getWordMeaning(word) {
     return 'Got error when fetching the word meaning.';
   }
 }
-var port = process.env.PORT || 4000
+var port = process.env.PORT || 8080
 
 app.listen(port);
 

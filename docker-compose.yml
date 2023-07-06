@@ -6,7 +6,7 @@ services:
       context: .
 
     ports:
-      - 4000:80
+      - 8080:8080
       
     volumes:
       - .:/app
